@@ -4,4 +4,5 @@ import java.util.List;
 
 public interface IParser {
     List<Lexeme> getLexemeList(String expression);
+    double parse(String input);
 }
