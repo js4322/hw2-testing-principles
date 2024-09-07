@@ -10,6 +10,6 @@ public class SimpleCalc implements ICalc{
     }
     @Override
     public float calc(String expression) {
-        return 0;
+        return (float)SimpleParser.getInstance().parse(expression);
     }
 }
