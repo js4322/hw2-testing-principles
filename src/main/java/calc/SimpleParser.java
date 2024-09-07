@@ -34,7 +34,7 @@ public class SimpleParser implements IParser{
                 case CLOSING_BRACKET:
                     return value;
                 default:
-                    throw new InputMismatchException("Unexpected lexeme at index "
+                    throw new InputMismatchException("Unexpected lexeme  at index "
                             + input.getIndex() + '\t' + input.get());
             }
         }
